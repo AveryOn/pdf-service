@@ -1,0 +1,27 @@
+{
+  "name": "pdf-service",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "target": "ES2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.23",
+    "@types/pdfmake": "^0.2.11",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "pdfmake": "^0.2.20"
+  }
+}
